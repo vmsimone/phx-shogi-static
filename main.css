@@ -1,0 +1,208 @@
+@font-face {
+    font-family: KongJapanese;
+    src: url('./fonts/KongJapanese.otf') format('opentype');
+    src: url('./fonts/KongJapanese.woff2') format('woff2'),
+    url('./fonts/KongJapanese.woff') format('woff');
+}
+
+@font-face {
+    font-family: Harukaze;
+    src: url('./fonts/HarukazeSolid.otf');
+}
+
+@font-face {
+    font-family: YujiSyuku;
+    src: url('./fonts/YujiSyuku-Regular.ttf');
+}
+@font-face {
+	font-family: Queensides;
+	src: url('./components/css/fonts/Queensides.ttf');
+}
+@font-face {
+	font-family: QueensidesBold;
+	src: url('./components/css/fonts/QueensidesMedium.ttf');
+}
+@font-face {
+	font-family: QueensidesLight;
+	src: url('./components/css/fonts/QueensidesLight.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("./images/shogi-king-BKG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 11vw;
+    min-height: 100px;
+    background-color: #AC8F73;
+    box-shadow: 0px 2px 5px black;
+    font-family: KongJapanese;
+    z-index: 1;
+    position: sticky;
+}
+
+.navHeader {
+    text-align: center;
+}
+
+nav img {
+    height: 8vw;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
+nav h1 {
+    color: #463d35;
+    font-size: 5vw;
+    height: 5vh;
+    text-shadow: 1px 1px 4px;
+    display: inline-block;
+    margin: 0;
+    margin-top: 0.5vh;
+    vertical-align: top;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: "none";
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1vh 1vw;
+} 
+
+nav a:hover {
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+    color: #8a2727;
+    cursor: pointer;
+    background-color: #fcf4e1;
+}
+
+main {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fcf4e1;
+}
+
+main h1 {
+    background-color: #463d35;
+    border: 5px solid #927c6e;
+    font-family: Harukaze;
+    font-size: 10vw;
+    letter-spacing: 5px;
+    padding: 5vh 5vw;
+    border-top-right-radius: 10vw;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 10vw;
+    border-bottom-right-radius: 1vw;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.543);
+}
+  
+h2 {
+    font-family: Harukaze;
+    font-size: 8vw;
+    letter-spacing: 5px;
+    color: #d04646;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    background-color: #463d35;
+    border: 5px solid #927c6e;
+    border-radius: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    padding: 5vh 3vw;
+    width: 75vw;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.543);
+    font-family: Queensides;
+    align-items: center;
+}
+
+section p {
+    font-size: 24px;
+    padding-top: 1vh;
+}
+
+section a {
+    text-decoration: none;
+    color: #d04646;
+    font-weight: bold;
+}
+
+.meetup img {
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 3vw;
+    float: left;
+}
+
+.comelearn button {
+    background-color: #fcf4e1;
+    font-family: Harukaze;
+    font-size: 5vw;
+    letter-spacing: 5px;
+    color: #d04646;
+    margin: 0;
+    margin-top: 5vh;
+    padding: 0px 1vw;
+    border-radius: 10px;
+    border: solid 5px transparent;
+    cursor: pointer;
+    text-align: center;
+}
+
+.comelearn button:hover {
+    border: solid 5px #d04646;
+}
+
+.comelearn img {
+    float: right;
+    clear: both;
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 3vw;
+}
+
+.learn article {
+    text-align: center;
+}
+
+.learn article p {
+    text-align: left;
+}
