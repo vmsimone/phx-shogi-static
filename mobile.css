@@ -1,3 +1,54 @@
 @media only screen and (max-width: 640px) {
+  body {
+    background-position: 50%;
+  }
+    nav {
+        min-height: 10vh;
+    }
+    nav img {
+        height: 5vh;
+        margin-top: 0.75vh;
+    }
+    nav h1 {
+        font-size: 4vh;
+    }
+    nav ul li a {
+      font-size: 3vh;
+    }
+    .navHeader {
+        height: 6vh;
+    }
+    main h1 {
+      font-size: 25vw;
+      text-align: center;
+      margin-top: 5vh;
+    }
+    main section {
+      width: 90vw;
+    }
+    main h2 {
+      font-size: 20vw;
+      width: 90vw;
+    }
+    main p {
+      text-align: center;
+    }
+    .comelearn img,
+    .meetup img,
+    .homeDesc img {
+      display: none;
+    }
+    .comelearn button {
+      font-size: 7vh;
+      letter-spacing: 3px;
+      padding: 0px 5vw;
+      text-align: center;
+    }
+    article img {
+      max-width: 90%;
+    }
+    .learn article p {
+      text-align: center;
+    }
+  }
   
-}
