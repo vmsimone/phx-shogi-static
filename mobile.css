@@ -30,6 +30,9 @@
       font-size: 20vw;
       width: 90vw;
     }
+    main h3 {
+      font-size: 10vw;
+    }
     main p {
       text-align: center;
     }
