@@ -56,20 +56,20 @@ nav {
 
 .navHeader {
     text-align: center;
+    height: 8vh;
 }
 
 nav img {
-    height: 8vh;
+    height: 56px;
     width: auto;
     display: inline-block;
     margin: 0;
-    vertical-align: top;
+    vertical-align: bottom;
 }
 
 nav h1 {
     color: #463d35;
-    font-size: 5vw;
-    height: 5vh;
+    font-size: 48px;
     text-shadow: 1px 1px 4px;
     display: inline-block;
     margin: 0;
@@ -91,7 +91,7 @@ nav a {
     text-decoration: none;
     text-decoration: underline;
     color: black;
-    font-size: 3vw;
+    font-size: 24px;
     margin-left: 1vw;
     margin-right: 1vw;
     padding: 1vh 1vw;
@@ -118,7 +118,7 @@ main h1 {
     background-color: #463d35;
     border: 5px solid #927c6e;
     font-family: Harukaze;
-    font-size: 14vw;
+    font-size: 128px;
     letter-spacing: 5px;
     padding: 5vh 5vw;
     border-top-right-radius: 10vw;
@@ -132,7 +132,7 @@ main h1 {
   
 h2 {
     font-family: Harukaze;
-    font-size: 10vw;
+    font-size: 96px;
     letter-spacing: 5px;
     color: #d04646;
     width: 100%;
@@ -142,7 +142,7 @@ h2 {
 
 h3 {
     /* font-family: KongJapanese; */
-    font-size: 6vw;
+    font-size: 48px;
 }
 
 section {
