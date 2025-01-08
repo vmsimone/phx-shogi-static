@@ -40,6 +40,9 @@
     main p {
       text-align: justify;
     }
+    iframe {
+      height: 300px;
+    }
     .comelearn img,
     .meetup img,
     .homeDesc img {
