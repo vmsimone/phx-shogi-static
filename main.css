@@ -171,6 +171,14 @@ section a {
     font-weight: bold;
 }
 
+.postCard li {
+    list-style-type: none;
+    list-style-type: "\2617";
+    padding-left: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
 .meetup img {
     width: 35vw;
     height: auto;
