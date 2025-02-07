@@ -14,9 +14,10 @@
     }
     nav ul {
       text-align: left;
+      margin-top: 5px;
     }
     nav ul li a {
-      font-size: 24px;
+      font-size: 18px;
       text-decoration: underline;
     }
     .navHeader {
